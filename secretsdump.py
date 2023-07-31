@@ -361,7 +361,7 @@ if __name__ == '__main__':
                         help='Use the Kerb-Key-List method instead of default DRSUAPI')
     parser.add_argument('-exec-method', choices=['smbexec', 'wmiexec', 'mmcexec'], nargs='?', default='smbexec', help='Remote exec '
                         'method to use at target (only when using -use-vss). Default: smbexec')
-    parser.add_argument("-t", "-threads", help="Number of threads", type=int, default=5)    
+    parser.add_argument("-t", "--threads", help="Number of threads", type=int, default=5)    
     parser.add_argument('-inputfile', action='store',
                         help='input target file. Entries should be line by line in format <targetName or address> or LOCAL')
                         

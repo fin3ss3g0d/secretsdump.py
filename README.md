@@ -14,7 +14,7 @@ python3 secretsdump.py [domain/]username[:password] -t THREADS -inputfile INPUTF
 
 The main arguments are:
 
-- `-t THREADS`, `-threads THREADS`: Number of concurrent threads. Replace THREADS with the desired number.
+- `-t THREADS`, `--threads THREADS`: Number of concurrent threads. Replace THREADS with the desired number.
 - `-inputfile INPUTFILE`: A text file with a list of target hosts, one per line. Replace INPUTFILE with the path to your file.
 - `-outputfile OUTPUTFILE`: Path to the output directory if desired (optional). Will create dump files in this directory based on target, username, and domain (if specified). Replace OUTPUTFILE with the path to your directory.
 
